@@ -106,7 +106,8 @@ function GrowerProfile(){
 
         alert(JSON.stringify(serverMsg.data.result));                                     //serverMsg.data.result will give the obj fetched from DB     
         setObj(serverMsg.data.result);                                                    //obj fetched from DB will be updated in obj state in place of our existing obj 
-        setPrev(`http://localhost:2007/uploads/${serverMsg.data.result.proofpic}`);
+        // setPrev(`http://localhost:2007/uploads/${serverMsg.data.result.proofpic}`);
+        setPrev(`https://g2c-mern-project.onrender.com/uploads/${serverMsg.data.result.proofpic}`);
       
       }
       else
@@ -121,7 +122,7 @@ function GrowerProfile(){
 
         alert(JSON.stringify(serverMsg.data.result));                                          
         setObj(serverMsg.data.result);                                                   
-        setPrev(`http://localhost:2007/uploads/${serverMsg.data.result.proofpic}`);
+        setPrev(`https://g2c-mern-project.onrender.com/uploads/${serverMsg.data.result.proofpic}`);
       
       }
       else
