@@ -25,7 +25,7 @@ function ItemsManager(){
 
       alert(JSON.stringify(serverMsg.data.result));                 //Result Array will be fetched from DB                                  
       setResult(serverMsg.data.result);  
-      //setPrev(`http://localhost:2007/uploads/${serverMsg.data.result.proofpic}`); 
+      //setPrev(`https://g2c-mern-project.onrender.com/uploads/${serverMsg.data.result.proofpic}`); 
     }
     else
       alert("Invalid ID")
