@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // const baseURL="http://localhost:2007";                         //baseURL is case sensitive, hence don't change it else Error 404 will be encountered due to problem in finding route(path)
-const baseURL="https://g2c-mern-project.onrender.com"
+const baseURL="https://g2c-mern-project.onrender.com"             //url is changed as specified by render.com after backend deployment
 
 const publicAxios=axios.create({baseURL});
 
