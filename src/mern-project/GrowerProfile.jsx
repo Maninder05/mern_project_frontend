@@ -47,6 +47,7 @@ function GrowerProfile(){
     async function doSaveWithAxios()
     {
       //const url = "http://localhost:2007/grower/add-profile"; 
+      //const url="https://g2c-mern-project.onrender.com/grower/add-profile";              only this url will be used after backend deployment as provided by render.com
       
       var formdata=new FormData();               
       for(var prop in obj)
