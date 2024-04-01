@@ -16,7 +16,7 @@ function ItemsManager(){
   }
   async function doFetchProduct()
   {
-    const url = `http://localhost:2007/grower/fetch-product?emailid=${obj.emailid}`; 
+    const url = `https://g2c-mern-project.onrender.com/grower/fetch-product?emailid=${obj.emailid}`; 
 
     const serverMsg= await axios.get(url);
     console.log(JSON.stringify(serverMsg));
@@ -32,7 +32,7 @@ function ItemsManager(){
   }
   async function doDeleteProduct(product)
   {
-    const url = `http://localhost:2007/grower/delete-product?selproduct=${product}`; 
+    const url = `https://g2c-mern-project.onrender.com/grower/delete-product?selproduct=${product}`; 
 
     const serverMsg= await axios.get(url);
     console.log(JSON.stringify(serverMsg));
