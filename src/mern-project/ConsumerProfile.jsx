@@ -88,7 +88,7 @@ function ConsumerProfile(){
 
         alert(JSON.stringify(serverMsg.data.result));                                     
         setObj(serverMsg.data.result);                                                   
-        setPrev(`http://localhost:2007/uploads/${serverMsg.data.result.proofpic}`);
+        setPrev(`https://g2c-mern-project.onrender.com/uploads/${serverMsg.data.result.proofpic}`);
       
       }
       else
