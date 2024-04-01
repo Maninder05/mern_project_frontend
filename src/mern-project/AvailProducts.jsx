@@ -77,7 +77,7 @@ function AvailProducts(){
       var formdata=new FormData();               
       for(var prop in obj)
       {
-        alert(obj[prop]);
+        // alert(obj[prop]);
         formdata.append(prop,obj[prop]);       
       }
       const serverMsg= await axios.post(url,formdata,{headers:{'Content-Type':'multipart/form-data'}});
