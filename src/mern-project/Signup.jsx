@@ -33,7 +33,7 @@ export default function Signup(){
   //============POST JSON REQ(i.e. of Content-type-"application/json")========================
   async function doSignup()
   {
-    //const url = "http://localhost:2007/user/do-signup"; 
+    //const url = "https://g2c-mern-project.onrender.com/user/do-signup"; 
     //const serverMsg= await axios.post(url,obj)
 
     const serverMsg= await doSignupMVC(obj);                            //MVC- Industry Style
