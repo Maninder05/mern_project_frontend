@@ -96,7 +96,7 @@ function FindGrower(){
         //alert(JSON.stringify(serverMsg.data.result));
         setFindGrowerPg(false);
         setResult(serverMsg.data.result);
-        setPrev(`http://localhost:2007/uploads/${serverMsg.data.result.proofpic}`);
+        setPrev(`https://g2c-mern-project.onrender.com/uploads/${serverMsg.data.result.proofpic}`);
         setGrowerCards(true);
 
       }
