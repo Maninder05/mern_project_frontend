@@ -1,0 +1,19 @@
+.card-outer{
+    width: 350px;
+    height: 430px;
+    background-color:rgb(183, 206, 136);
+    float: left; margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 80px;
+}
+.card-brdr{
+    border: 2px black solid;
+}
+.button{
+    padding: 5px; 
+    border: 2px rgb(34, 33, 33) solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color:rgb(134, 154, 160);
+    width: 100px; height:40px;
+}

@@ -1,0 +1,55 @@
+.input{
+    background-color: blanchedalmond;
+    width: 600px; height:50px; margin-top:20px;
+    font-size:20px; padding:5px; 
+    border-radius: 3px black solid;
+}
+.add-btn{
+    width:90px; height:50px;
+    background-color: blueviolet;
+    margin-left: 10px; font-size:17px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.add-btn:hover{
+    background-color: rgb(199, 214, 130);
+    cursor: pointer;
+}
+.pending-task{
+    background-color: rgb(31, 203, 203);
+    margin-top:10px; padding: 5px; display:flex;
+    width:700px; height:50px;  align-items: center; 
+    border-radius: 5px; border:2px black solid;
+}
+.completed-task{
+    background-color: rgb(34, 232, 126);
+    margin-top:10px; padding: 5px; display:flex;
+    width:700px; height:50px;  align-items: center; 
+    border-radius: 5px; border:2px black solid;
+}
+.input-div{
+    width:610px; height:50px; display: flex; 
+    align-items: center; font-size:20px; 
+    /* background-color: rgb(160, 24, 70); */
+}
+.btn-div{
+    width:150px; height:40px; display:flex;
+    align-items: center;
+    /* background-color: rgb(29, 17, 152);  */
+}
+.btnn{
+    width:90px; height:30px; 
+    background-color: rgb(202, 105, 203);
+    border: 1px black solid;
+    border-radius: 3px; margin-left:3px;
+}
+.dlt-btn{
+    width:90px; height:30px; 
+    background-color: rgb(202, 105, 203);
+    border: 1px black solid; margin-left: 45px; 
+    border-radius: 3px; 
+}
+.btnn:hover{
+    background-color: rgb(199, 214, 130);
+    cursor: pointer;
+}

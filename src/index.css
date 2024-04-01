@@ -1,0 +1,7 @@
+/*Adding tailwind directives to css*/
+@tailwind base;                                                           
+@tailwind components; 
+@tailwind utilities; 
+body{
+    background-color: rgb(108, 144, 192);
+} 
