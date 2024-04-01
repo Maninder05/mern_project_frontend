@@ -80,7 +80,7 @@ function GrowerDashboard(){
                     </div>
                 </div>
             </div>
-            <a href="/ItemsManager">Manage Your Products</a><br/>
+            {/* <a href="/ItemsManager">Manage Your Products</a><br/> */}
           </div>
         </div>
         </>
