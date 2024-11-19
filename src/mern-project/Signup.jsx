@@ -102,7 +102,7 @@ export default function Signup(){
             </div>
           </nav>
           <a href="#"> 
-            <img src="/pics/wheat-bloom.webp" className="w-full h-[620px] border-2 border-gray-300" alt=""/>
+            <img src="/pics/organickheti.jpg" className="w-full h-[620px] border-2 border-gray-300" alt=""/>
             <div class="carousel-caption d-none d-md-block mb-3 flex md:order-2 space-x-3 md:space-x-3 rtl:space-x-reverse mr-3">
               <button type="button" onClick={() => setShowSignupModal(true)} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-[120px] px-4 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Signup</button>
               <button type="button" onClick={() => setShowLoginModal(true)} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-[100px] px-4 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
